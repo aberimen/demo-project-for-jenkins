@@ -9,6 +9,7 @@ public class HelloController {
 
 	@GetMapping("/")
 	public String getIndex() {
+		System.out.println("example message");
 		return "Ana Sayfa";
 	}
 
